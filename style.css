@@ -1,0 +1,37 @@
+body {
+    background-color: palegoldenrod;
+    font-family: "Times New Roman", serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: red;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: red;
+}
+
+img {
+    height: 350;
+    width: auto;
+}
+
+.description {
+    font-size: 25px;
+}
+
+li {
+    font-size: 20px;
+}
+
+a {
+    font-size: 30px;
+}
+
+.ingredients {
+    font-weight: bolder;
+}
