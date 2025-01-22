@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: palegoldenrod;
     font-family: "Times New Roman", serif;
@@ -8,6 +12,8 @@ h1 {
     font-size: 50px;
     background-color: red;
     text-align: center;
+    border: groove orange 20px;
+    padding: 20px;
 }
 
 h2 {
@@ -34,4 +40,32 @@ a {
 
 .ingredients {
     font-weight: bolder;
+}
+
+.recipe-list {
+    border-style: groove;
+    border-width: 20px;
+    border-color: red;
+    padding: 20px;
+    margin: 40px 10px;
+    width: 500px;
+}
+
+.recipe-links {
+    border: solid red 10px;
+    padding: 100px;
+    background-color: goldenrod;
+    margin: 0 100px;
+    text-align: center;
+}
+
+.recipe-links a {
+    border: groove orange 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 40px 0px;
+    width: 200px;
+    margin: 0 50px;
+    height: 200px;
+    vertical-align: top;
 }
